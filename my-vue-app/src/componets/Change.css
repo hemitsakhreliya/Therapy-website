@@ -1,0 +1,70 @@
+.change_body {
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(135deg, #74ebd5 0%, #ACB6E5 100%);
+    display: flex;
+    padding-left: 520px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+    height: 100vh;
+}
+
+.password-container {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 15px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+}
+
+.password-form h2 {
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    color: #444;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 500;
+    color: #555;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 12px 15px;
+    border: 2px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+    color: #333;
+    outline: none;
+    transition: border-color 0.3s ease;
+}
+
+.input-group input:focus {
+    border-color: #ACB6E5;
+    box-shadow: 0 0 8px rgba(172, 182, 229, 0.2);
+}
+
+.button_pass{
+    width: 100%;
+    padding: 12px;
+    background-color: #ACB6E5;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.button_pass:hover {
+    background-color: #74ebd5;
+}

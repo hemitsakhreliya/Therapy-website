@@ -1,0 +1,60 @@
+
+  .body_therapist{
+    font-family:'Times New Roman', Times, serif;
+  }
+  .doctor-profile {
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    background: linear-gradient(135deg, #e0f7fa, #b2ebf2);
+    width: 100%;
+    transition: box-shadow 0.3s ease;
+  }
+  
+  .doctor-profile:hover {
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.15);
+  }
+  
+  .doctor-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+  }
+  
+  .doctor-details {
+    flex-grow: 1;
+  }
+  
+  .doctor-name {
+    font-size: 1.6rem;
+    font-weight: 600;
+    margin: 0;
+    color: #333;
+  }
+  
+  .doctor-location {
+    font-size: 1.1rem;
+    color: #777;
+    margin-top: 5px;
+  }
+  
+  .view-button {
+    padding: 10px 20px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1rem;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-button:hover {
+    background-color: #2980b9;
+  }
+  
